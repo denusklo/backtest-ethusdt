@@ -1,13 +1,11 @@
 Using Historic_Crypto API ([David-Woroniuk/Historic_Crypto](https://github.com/David-Woroniuk/Historic_Crypto))
 
 
-
 ```python
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 ```
-
 
 ```python
 from Historic_Crypto import HistoricalData
@@ -23,886 +21,9 @@ print(new)
 
 new.to_csv('eth_since_' + a.strftime("%Y%m%d") + '.csv', sep=',')
 
+
+
 ```
-
-    Checking input parameters are in the correct format.
-    Formatting Dates.
-    Checking if user supplied is available on the CoinBase Pro API.
-    Connected to the CoinBase Pro API.
-    Ticker 'ETH-USD' found at the CoinBase Pro API, continuing to extraction.
-    Provisional Start: 2022-10-02T00:00:00
-    Provisional End: 2022-10-03T01:00:00
-    Data for chunk 1 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-03T01:00:00
-    Provisional End: 2022-10-04T02:00:00
-    Data for chunk 2 of 97 extracted
-    Provisional Start: 2022-10-04T02:00:00
-    Provisional End: 2022-10-05T03:00:00
-    Data for chunk 3 of 97 extracted
-    Provisional Start: 2022-10-05T03:00:00
-    Provisional End: 2022-10-06T04:00:00
-    Data for chunk 4 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-06T04:00:00
-    Provisional End: 2022-10-07T05:00:00
-    Data for chunk 5 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-07T05:00:00
-    Provisional End: 2022-10-08T06:00:00
-    Data for chunk 6 of 97 extracted
-    Provisional Start: 2022-10-08T06:00:00
-    Provisional End: 2022-10-09T07:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 7 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-09T07:00:00
-    Provisional End: 2022-10-10T08:00:00
-    Data for chunk 8 of 97 extracted
-    Provisional Start: 2022-10-10T08:00:00
-    Provisional End: 2022-10-11T09:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 9 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-11T09:00:00
-    Provisional End: 2022-10-12T10:00:00
-    Data for chunk 10 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-12T10:00:00
-    Provisional End: 2022-10-13T11:00:00
-    Data for chunk 11 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-13T11:00:00
-    Provisional End: 2022-10-14T12:00:00
-    Data for chunk 12 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-14T12:00:00
-    Provisional End: 2022-10-15T13:00:00
-    Data for chunk 13 of 97 extracted
-    Provisional Start: 2022-10-15T13:00:00
-    Provisional End: 2022-10-16T14:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 14 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-16T14:00:00
-    Provisional End: 2022-10-17T15:00:00
-    Data for chunk 15 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-17T15:00:00
-    Provisional End: 2022-10-18T16:00:00
-    Data for chunk 16 of 97 extracted
-    Provisional Start: 2022-10-18T16:00:00
-    Provisional End: 2022-10-19T17:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 17 of 97 extracted
-    Provisional Start: 2022-10-19T17:00:00
-    Provisional End: 2022-10-20T18:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 18 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-20T18:00:00
-    Provisional End: 2022-10-21T19:00:00
-    Data for chunk 19 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-21T19:00:00
-    Provisional End: 2022-10-22T20:00:00
-    Data for chunk 20 of 97 extracted
-    Provisional Start: 2022-10-22T20:00:00
-    Provisional End: 2022-10-23T21:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 21 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-23T21:00:00
-    Provisional End: 2022-10-24T22:00:00
-    Data for chunk 22 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-24T22:00:00
-    Provisional End: 2022-10-25T23:00:00
-    Data for chunk 23 of 97 extracted
-    Provisional Start: 2022-10-25T23:00:00
-    Provisional End: 2022-10-27T00:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 24 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-27T00:00:00
-    Provisional End: 2022-10-28T01:00:00
-    Data for chunk 25 of 97 extracted
-    Provisional Start: 2022-10-28T01:00:00
-    Provisional End: 2022-10-29T02:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 26 of 97 extracted
-    Provisional Start: 2022-10-29T02:00:00
-    Provisional End: 2022-10-30T03:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 27 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-10-30T03:00:00
-    Provisional End: 2022-10-31T04:00:00
-    Data for chunk 28 of 97 extracted
-    Provisional Start: 2022-10-31T04:00:00
-    Provisional End: 2022-11-01T05:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 29 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-01T05:00:00
-    Provisional End: 2022-11-02T06:00:00
-    Data for chunk 30 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-02T06:00:00
-    Provisional End: 2022-11-03T07:00:00
-    Data for chunk 31 of 97 extracted
-    Provisional Start: 2022-11-03T07:00:00
-    Provisional End: 2022-11-04T08:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 32 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-04T08:00:00
-    Provisional End: 2022-11-05T09:00:00
-    Data for chunk 33 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-05T09:00:00
-    Provisional End: 2022-11-06T10:00:00
-    Data for chunk 34 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-06T10:00:00
-    Provisional End: 2022-11-07T11:00:00
-    Data for chunk 35 of 97 extracted
-    Provisional Start: 2022-11-07T11:00:00
-    Provisional End: 2022-11-08T12:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 36 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-08T12:00:00
-    Provisional End: 2022-11-09T13:00:00
-    Data for chunk 37 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-09T13:00:00
-    Provisional End: 2022-11-10T14:00:00
-    Data for chunk 38 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-10T14:00:00
-    Provisional End: 2022-11-11T15:00:00
-    Data for chunk 39 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-11T15:00:00
-    Provisional End: 2022-11-12T16:00:00
-    Data for chunk 40 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-12T16:00:00
-    Provisional End: 2022-11-13T17:00:00
-    Data for chunk 41 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-13T17:00:00
-    Provisional End: 2022-11-14T18:00:00
-    Data for chunk 42 of 97 extracted
-    Provisional Start: 2022-11-14T18:00:00
-    Provisional End: 2022-11-15T19:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 43 of 97 extracted
-    Provisional Start: 2022-11-15T19:00:00
-    Provisional End: 2022-11-16T20:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 44 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-16T20:00:00
-    Provisional End: 2022-11-17T21:00:00
-    Data for chunk 45 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-17T21:00:00
-    Provisional End: 2022-11-18T22:00:00
-    Data for chunk 46 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-18T22:00:00
-    Provisional End: 2022-11-19T23:00:00
-    Data for chunk 47 of 97 extracted
-    Provisional Start: 2022-11-19T23:00:00
-    Provisional End: 2022-11-21T00:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 48 of 97 extracted
-    Provisional Start: 2022-11-21T00:00:00
-    Provisional End: 2022-11-22T01:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 49 of 97 extracted
-    Provisional Start: 2022-11-22T01:00:00
-    Provisional End: 2022-11-23T02:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 50 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-23T02:00:00
-    Provisional End: 2022-11-24T03:00:00
-    Data for chunk 51 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-24T03:00:00
-    Provisional End: 2022-11-25T04:00:00
-    Data for chunk 52 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-25T04:00:00
-    Provisional End: 2022-11-26T05:00:00
-    Data for chunk 53 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-26T05:00:00
-    Provisional End: 2022-11-27T06:00:00
-    Data for chunk 54 of 97 extracted
-    Provisional Start: 2022-11-27T06:00:00
-    Provisional End: 2022-11-28T07:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 55 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-28T07:00:00
-    Provisional End: 2022-11-29T08:00:00
-    Data for chunk 56 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-29T08:00:00
-    Provisional End: 2022-11-30T09:00:00
-    Data for chunk 57 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-11-30T09:00:00
-    Provisional End: 2022-12-01T10:00:00
-    Data for chunk 58 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-01T10:00:00
-    Provisional End: 2022-12-02T11:00:00
-    Data for chunk 59 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-02T11:00:00
-    Provisional End: 2022-12-03T12:00:00
-    Data for chunk 60 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-03T12:00:00
-    Provisional End: 2022-12-04T13:00:00
-    Data for chunk 61 of 97 extracted
-    Provisional Start: 2022-12-04T13:00:00
-    Provisional End: 2022-12-05T14:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 62 of 97 extracted
-    Provisional Start: 2022-12-05T14:00:00
-    Provisional End: 2022-12-06T15:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 63 of 97 extracted
-    Provisional Start: 2022-12-06T15:00:00
-    Provisional End: 2022-12-07T16:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 64 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-07T16:00:00
-    Provisional End: 2022-12-08T17:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 65 of 97 extracted
-    Provisional Start: 2022-12-08T17:00:00
-    Provisional End: 2022-12-09T18:00:00
-    Data for chunk 66 of 97 extracted
-    Provisional Start: 2022-12-09T18:00:00
-    Provisional End: 2022-12-10T19:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 67 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-10T19:00:00
-    Provisional End: 2022-12-11T20:00:00
-    Data for chunk 68 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-11T20:00:00
-    Provisional End: 2022-12-12T21:00:00
-    Data for chunk 69 of 97 extracted
-    Provisional Start: 2022-12-12T21:00:00
-    Provisional End: 2022-12-13T22:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 70 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-13T22:00:00
-    Provisional End: 2022-12-14T23:00:00
-    Data for chunk 71 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-14T23:00:00
-    Provisional End: 2022-12-16T00:00:00
-    Data for chunk 72 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-16T00:00:00
-    Provisional End: 2022-12-17T01:00:00
-    Data for chunk 73 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-17T01:00:00
-    Provisional End: 2022-12-18T02:00:00
-    Data for chunk 74 of 97 extracted
-    Provisional Start: 2022-12-18T02:00:00
-    Provisional End: 2022-12-19T03:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 75 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-19T03:00:00
-    Provisional End: 2022-12-20T04:00:00
-    Data for chunk 76 of 97 extracted
-    Provisional Start: 2022-12-20T04:00:00
-    Provisional End: 2022-12-21T05:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 77 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-21T05:00:00
-    Provisional End: 2022-12-22T06:00:00
-    Data for chunk 78 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-22T06:00:00
-    Provisional End: 2022-12-23T07:00:00
-    Data for chunk 79 of 97 extracted
-    Provisional Start: 2022-12-23T07:00:00
-    Provisional End: 2022-12-24T08:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 80 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-24T08:00:00
-    Provisional End: 2022-12-25T09:00:00
-    Data for chunk 81 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-25T09:00:00
-    Provisional End: 2022-12-26T10:00:00
-    Data for chunk 82 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-26T10:00:00
-    Provisional End: 2022-12-27T11:00:00
-    Data for chunk 83 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-27T11:00:00
-    Provisional End: 2022-12-28T12:00:00
-    Data for chunk 84 of 97 extracted
-    Provisional Start: 2022-12-28T12:00:00
-    Provisional End: 2022-12-29T13:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 85 of 97 extracted
-    Provisional Start: 2022-12-29T13:00:00
-    Provisional End: 2022-12-30T14:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 86 of 97 extracted
-    Provisional Start: 2022-12-30T14:00:00
-    Provisional End: 2022-12-31T15:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 87 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2022-12-31T15:00:00
-    Provisional End: 2023-01-01T16:00:00
-    Data for chunk 88 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2023-01-01T16:00:00
-    Provisional End: 2023-01-02T17:00:00
-    Data for chunk 89 of 97 extracted
-    Provisional Start: 2023-01-02T17:00:00
-    Provisional End: 2023-01-03T18:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 90 of 97 extracted
-    Provisional Start: 2023-01-03T18:00:00
-    Provisional End: 2023-01-04T19:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 91 of 97 extracted
-    Provisional Start: 2023-01-04T19:00:00
-    Provisional End: 2023-01-05T20:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 92 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2023-01-05T20:00:00
-    Provisional End: 2023-01-06T21:00:00
-    Data for chunk 93 of 97 extracted
-    Provisional Start: 2023-01-06T21:00:00
-    Provisional End: 2023-01-07T22:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 94 of 97 extracted
-    Provisional Start: 2023-01-07T22:00:00
-    Provisional End: 2023-01-08T23:00:00
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Data for chunk 95 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2023-01-08T23:00:00
-    Provisional End: 2023-01-10T00:00:00
-    Data for chunk 96 of 97 extracted
-    
-
-    C:\Users\sean1\AppData\Local\Programs\Python\Python310\lib\site-packages\Historic_Crypto\HistoricalData.py:176: FutureWarning: The frame.append method is deprecated and will be removed from pandas in a future version. Use pandas.concat instead.
-      data = data.append(dataset)
-    
-
-    Provisional Start: 2023-01-10T00:00:00
-    Provisional End: 2023-01-11T01:00:00
-    Data for chunk 97 of 97 extracted
-    CoinBase Pro API did not have available data for 'ETH-USD' beginning at 2022-10-02-00-00.  
-                            Trying a later date:'2023-01-10T00:00:00'
-                             low     high     open    close       volume
-    time                                                                
-    2022-10-02 00:05:00  1310.17  1312.86  1310.43  1311.44   272.004386
-    2022-10-02 00:10:00  1311.03  1312.01  1311.53  1311.56   167.802554
-    2022-10-02 00:15:00  1311.41  1312.85  1311.55  1312.51   219.899519
-    2022-10-02 00:20:00  1312.39  1316.09  1312.47  1315.44   291.483403
-    2022-10-02 00:25:00  1311.47  1315.67  1315.61  1311.97   306.112500
-    ...                      ...      ...      ...      ...          ...
-    2023-01-09 18:15:00  1341.37  1344.83  1343.53  1341.66  1371.806180
-    2023-01-09 18:20:00  1341.05  1342.59  1341.65  1342.18   913.844976
-    2023-01-09 18:25:00  1339.71  1342.21  1342.17  1339.71  1319.465729
-    2023-01-09 18:30:00  1338.40  1341.38  1339.71  1338.71  1481.197991
-    2023-01-09 18:35:00  1336.41  1339.44  1338.64  1336.53  1834.370841
-    
-    [28735 rows x 5 columns]
-    
 
 The first arguments for `HistoricalData` class is symbol/ticker information which you want to return (`str` type), second argument is granularity in seconds (60, 300, 900, 3600, 21600, 86400, `int` type), third argument is start date of the trade history in the format YYYY-MM-DD-HH-MM (`str` type), fourth argument is optional which is end date of the desired trade history in the format of YYYY-MM-DD-HH-MM (`str` type), its default value is now. 
 <br>
@@ -910,8 +31,11 @@ After that, the record will save the data into a csv file.
 
 Data since July 29, 2022
 
-
 ```python
+# stop pandas from using html output for table 
+pd.set_option("display.notebook_repr_html", False)
+
+
 # This is needed if you're using Jupyter to visualize charts:
 %matplotlib inline
 last100days = 'eth_since_20220729.csv'
@@ -924,137 +48,25 @@ data
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>low</th>
-      <th>high</th>
-      <th>open</th>
-      <th>close</th>
-      <th>volume</th>
-    </tr>
-    <tr>
-      <th>time</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2022-07-29 00:05:00</th>
-      <td>1724.54</td>
-      <td>1726.83</td>
-      <td>1726.13</td>
-      <td>1725.69</td>
-      <td>427.256878</td>
-    </tr>
-    <tr>
-      <th>2022-07-29 00:10:00</th>
-      <td>1717.75</td>
-      <td>1726.12</td>
-      <td>1725.58</td>
-      <td>1720.65</td>
-      <td>626.614850</td>
-    </tr>
-    <tr>
-      <th>2022-07-29 00:15:00</th>
-      <td>1689.45</td>
-      <td>1720.89</td>
-      <td>1720.67</td>
-      <td>1699.02</td>
-      <td>5657.571089</td>
-    </tr>
-    <tr>
-      <th>2022-07-29 00:20:00</th>
-      <td>1696.42</td>
-      <td>1706.89</td>
-      <td>1698.96</td>
-      <td>1703.48</td>
-      <td>1965.359876</td>
-    </tr>
-    <tr>
-      <th>2022-07-29 00:25:00</th>
-      <td>1699.33</td>
-      <td>1705.85</td>
-      <td>1703.82</td>
-      <td>1699.94</td>
-      <td>1266.102777</td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-      <td>...</td>
-    </tr>
-    <tr>
-      <th>2022-11-06 06:40:00</th>
-      <td>1615.29</td>
-      <td>1616.98</td>
-      <td>1616.85</td>
-      <td>1615.46</td>
-      <td>209.340523</td>
-    </tr>
-    <tr>
-      <th>2022-11-06 06:45:00</th>
-      <td>1614.46</td>
-      <td>1616.37</td>
-      <td>1615.54</td>
-      <td>1616.25</td>
-      <td>407.810987</td>
-    </tr>
-    <tr>
-      <th>2022-11-06 06:50:00</th>
-      <td>1616.28</td>
-      <td>1616.92</td>
-      <td>1616.35</td>
-      <td>1616.76</td>
-      <td>132.739697</td>
-    </tr>
-    <tr>
-      <th>2022-11-06 06:55:00</th>
-      <td>1616.04</td>
-      <td>1617.31</td>
-      <td>1616.76</td>
-      <td>1617.09</td>
-      <td>183.119694</td>
-    </tr>
-    <tr>
-      <th>2022-11-06 07:00:00</th>
-      <td>1616.63</td>
-      <td>1617.83</td>
-      <td>1617.10</td>
-      <td>1617.20</td>
-      <td>128.437408</td>
-    </tr>
-  </tbody>
-</table>
-<p>28883 rows × 5 columns</p>
-</div>
+                             low     high     open    close       volume
+    time                                                                
+    2022-07-29 00:05:00  1724.54  1726.83  1726.13  1725.69   427.256878
+    2022-07-29 00:10:00  1717.75  1726.12  1725.58  1720.65   626.614850
+    2022-07-29 00:15:00  1689.45  1720.89  1720.67  1699.02  5657.571089
+    2022-07-29 00:20:00  1696.42  1706.89  1698.96  1703.48  1965.359876
+    2022-07-29 00:25:00  1699.33  1705.85  1703.82  1699.94  1266.102777
+    ...                      ...      ...      ...      ...          ...
+    2022-11-06 06:40:00  1615.29  1616.98  1616.85  1615.46   209.340523
+    2022-11-06 06:45:00  1614.46  1616.37  1615.54  1616.25   407.810987
+    2022-11-06 06:50:00  1616.28  1616.92  1616.35  1616.76   132.739697
+    2022-11-06 06:55:00  1616.04  1617.31  1616.76  1617.09   183.119694
+    2022-11-06 07:00:00  1616.63  1617.83  1617.10  1617.20   128.437408
+    
+    [28883 rows x 5 columns]
 
 
 
 Data since Jan 1, 2022
-
 
 ```python
 # This is needed if you're using Jupyter to visualize charts:
@@ -1195,7 +207,6 @@ data
 </table>
 <p>81683 rows × 5 columns</p>
 </div>
-
 
 
 
@@ -1366,7 +377,6 @@ df.round(3)
 
 
 
-
 ```python
 df.dropna(inplace=True)
 df.round(3)
@@ -1530,7 +540,6 @@ df.round(3)
 
 
 
-
 ```python
 def plot_system1(data):
     df = data.copy()
@@ -1551,7 +560,6 @@ def plot_system1(data):
     plt.show() # This is needed only if not in Jupyter
 ```
 
-
 ```python
 plot_system1(df)
 
@@ -1561,7 +569,6 @@ plot_system1(df)
     
 ![png](eth_files/eth_11_0.png)
     
-
 
 
 ```python
@@ -1742,7 +749,6 @@ df.round(3)
 
 
 
-
 ```python
 buy_signals = (df['Position'] == 1) & (df['Position'].shift(1) == 0)
 df.loc[buy_signals].round(3)
@@ -1917,7 +923,6 @@ df.loc[buy_signals].round(3)
 </table>
 <p>383 rows × 8 columns</p>
 </div>
-
 
 
 
@@ -2098,7 +1103,6 @@ df.loc[buy_signals | buy_signals_prev].round(3)
 
 
 
-
 ```python
 def plot_system1_sig(data):
     df = data.copy()
@@ -2130,7 +1134,6 @@ def plot_system1_sig(data):
     plt.show() # This is needed only if not in Jupyter
 ```
 
-
 ```python
 plot_system1_sig(df['2022-8-15':'2022-10-11'])
 
@@ -2140,7 +1143,6 @@ plot_system1_sig(df['2022-8-15':'2022-10-11'])
     
 ![png](eth_files/eth_16_0.png)
     
-
 
 
 ```python
@@ -2350,7 +1352,6 @@ df
 
 
 
-
 ```python
 returns = np.exp(df[['Hold', 'Strategy']].sum()) - 1
 print(f"Buy and hold return: {round(returns['Hold']*100,2)}%")
@@ -2361,7 +1362,6 @@ print(f"Strategy return: {round(returns['Strategy']*100,2)}%")
     Buy and hold return: -65.72%
     Strategy return: -11.55%
     
-
 
 ```python
 n_days = len(df)
@@ -2378,7 +1378,6 @@ print(f"Strategy annualized return:{round(ann_returns['Strategy']*100,2)}%")
 ---
 
 Binance API
-
 
 ```python
 from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
@@ -2401,7 +1400,6 @@ print('Logged in')
     Logged in
     
 
-
 ```python
 import datetime 
 tod = datetime.datetime.now()
@@ -2415,7 +1413,6 @@ print(a.strftime("%d %b %Y"))
     20221002
     02 Oct 2022
     
-
 
 ```python
 def plot_systemETH(data, title):
@@ -2438,7 +1435,6 @@ def plot_systemETH(data, title):
 
 
 ```
-
 
 ```python
 def plot_system1_sig(data, title):
@@ -2470,7 +1466,6 @@ def plot_system1_sig(data, title):
     
     plt.show() # This is needed only if not in Jupyter
 ```
-
 
 ```python
 candles = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_5MINUTE, a.strftime("%d %b %Y"))
@@ -2514,7 +1509,6 @@ plot_system1_sig(candles_df, 'ETH-USDT (5 minute timeframe)')
     
 
 
-
 ```python
 candles = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_30MINUTE, a.strftime("%d %b %Y"))
 candles_df = pd.DataFrame(candles)
@@ -2554,7 +1548,6 @@ plot_system1_sig(candles_df, 'ETH-USDT (30 minute timeframe)')
     
 ![png](eth_files/eth_27_0.png)
     
-
 
 
 ```python
@@ -2598,7 +1591,6 @@ plot_system1_sig(candles_df, 'ETH-USDT (1 hour timeframe)')
     
 
 
-
 ```python
 candles = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_2HOUR, a.strftime("%d %b %Y"))
 candles_df = pd.DataFrame(candles)
@@ -2638,7 +1630,6 @@ plot_system1_sig(candles_df, 'ETH-USDT (2 hour timeframe)')
     
 ![png](eth_files/eth_29_0.png)
     
-
 
 
 ```python
@@ -2811,16 +1802,15 @@ candles_df_copy
       <td>1318.28</td>
       <td>1344.91</td>
       <td>1315.44</td>
-      <td>1336.83</td>
-      <td>179628.1383</td>
-      <td>1296.8374</td>
-      <td>1258.611262</td>
+      <td>1340.95</td>
+      <td>174008.9319</td>
+      <td>1296.858</td>
+      <td>1259.003643</td>
     </tr>
   </tbody>
 </table>
 <p>200 rows × 7 columns</p>
 </div>
-
 
 
 
@@ -2903,7 +1893,6 @@ def plot_system1_sig(data, title):
 
 2 hour timeframe is chose.
 
-
 ```python
 hourlycandles = client.get_historical_klines('ETHUSDT', Client.KLINE_INTERVAL_15MINUTE, a.strftime("%d %b %Y"))
 hourlycandles_df = pd.DataFrame(hourlycandles)
@@ -2930,7 +1919,6 @@ plot_systemETH(hourlycandles_df, 'ETH-USDT (2 hour timeframe)')
     
 ![png](eth_files/eth_34_0.png)
     
-
 
 
 ```python
@@ -3039,6 +2027,16 @@ hourlycandles_df
       <td>...</td>
     </tr>
     <tr>
+      <th>2023-01-09 17:15:00</th>
+      <td>1340.26</td>
+      <td>1344.51</td>
+      <td>1339.53</td>
+      <td>1342.57</td>
+      <td>6448.9648</td>
+      <td>1282.39515</td>
+      <td>1331.111338</td>
+    </tr>
+    <tr>
       <th>2023-01-09 17:30:00</th>
       <td>1342.57</td>
       <td>1342.57</td>
@@ -3072,27 +2070,16 @@ hourlycandles_df
       <th>2023-01-09 18:15:00</th>
       <td>1343.57</td>
       <td>1344.50</td>
-      <td>1339.64</td>
-      <td>1339.64</td>
-      <td>3923.1917</td>
-      <td>1283.93500</td>
-      <td>1334.335710</td>
-    </tr>
-    <tr>
-      <th>2023-01-09 18:30:00</th>
-      <td>1339.64</td>
-      <td>1341.17</td>
-      <td>1335.78</td>
-      <td>1336.59</td>
-      <td>5070.7281</td>
-      <td>1284.30670</td>
-      <td>1334.550405</td>
+      <td>1340.24</td>
+      <td>1340.73</td>
+      <td>3394.7020</td>
+      <td>1283.94045</td>
+      <td>1334.439520</td>
     </tr>
   </tbody>
 </table>
-<p>9380 rows × 7 columns</p>
+<p>9379 rows × 7 columns</p>
 </div>
-
 
 
 
@@ -3401,7 +2388,6 @@ df3
 
 Strategy returns
 
-
 ```python
 # The returns of the Buy and Hold strategy:
 hourlycandles_df['Hold'] = np.log(hourlycandles_df['Close'] / hourlycandles_df['Close'].shift(1))
@@ -3665,11 +2651,11 @@ hourlycandles_df
       <th>2023-01-09 18:00:00</th>
       <td>1341.56</td>
       <td>1344.91</td>
-      <td>1335.78</td>
-      <td>1336.50</td>
-      <td>13209.9254</td>
-      <td>1248.58305</td>
-      <td>1315.729996</td>
+      <td>1340.19</td>
+      <td>1340.51</td>
+      <td>7666.0876</td>
+      <td>1248.60310</td>
+      <td>1316.111900</td>
       <td>1</td>
       <td>2023-01-09 18:00:00</td>
       <td>1217.18</td>
@@ -3677,14 +2663,13 @@ hourlycandles_df
       <td>1227.18</td>
       <td>1207.18</td>
       <td>WIN</td>
-      <td>-0.003779</td>
-      <td>-0.003779</td>
+      <td>-0.000783</td>
+      <td>-0.000783</td>
     </tr>
   </tbody>
 </table>
 <p>2094 rows × 16 columns</p>
 </div>
-
 
 
 
@@ -3695,10 +2680,9 @@ print(f"Strategy return: {round(returns['Strategy']*100,2)}%")
 
 ```
 
-    Buy and hold return: -0.17%
-    Strategy return: 15.48%
+    Buy and hold return: 0.13%
+    Strategy return: 15.83%
     
-
 
 ```python
 n_days = len(hourlycandles_df)
@@ -3708,6 +2692,6 @@ print(f"Buy and hold annualized return: {round(ann_returns['Hold']*100,2)}%")
 print(f"Strategy annualized return:{round(ann_returns['Strategy']*100,2)}%")
 ```
 
-    Buy and hold annualized return: -0.02%
-    Strategy annualized return:1.86%
+    Buy and hold annualized return: 0.02%
+    Strategy annualized return:1.9%
     
