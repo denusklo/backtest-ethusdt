@@ -23,6 +23,7 @@ new.to_csv('eth_since_' + a.strftime("%Y%m%d") + '.csv', sep=',')
 
 
 
+
 ```
 
 The first arguments for `HistoricalData` class is symbol/ticker information which you want to return (`str` type), second argument is granularity in seconds (60, 300, 900, 3600, 21600, 86400, `int` type), third argument is start date of the trade history in the format YYYY-MM-DD-HH-MM (`str` type), fourth argument is optional which is end date of the desired trade history in the format of YYYY-MM-DD-HH-MM (`str` type), its default value is now. 
