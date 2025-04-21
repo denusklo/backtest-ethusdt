@@ -51,8 +51,8 @@ The backtesting results show that the moving average crossover strategy signific
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/crypto-trading-strategy.git
-cd crypto-trading-strategy
+git clone https://github.com/denusklo/backtest-ethusdt.git
+cd backtest-ethusdt
 ```
 
 2. Install required dependencies
